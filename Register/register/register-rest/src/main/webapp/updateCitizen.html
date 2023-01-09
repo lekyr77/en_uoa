@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ενημέρωση πολίτη</title>
+</head>
+<body>
+
+<a href="MainPage.html">Αρχική</a><br><br>
+
+<form action="api/citizens/update" method="post">
+		<label for="id">Αριθμός ταυτότητας πολίτη:</label><br>
+		<input type="text" name="id" /><br>		
+		<label for="vat">ΑΦΜ:</label><br>
+		<input type="text" name="vat" /><br>
+		<label for="address">Διεύθυνση κατοικίας:</label><br>
+		<input type="text" name="address" /><br><br>		
+		<input type="submit" value="Ενημέρωση" />
+</form>
+
+</body>
+</html>

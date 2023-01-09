@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Εισαγωγή πολίτη</title>
+</head>
+<body>
+
+<a href="MainPage.html">Αρχική</a><br><br>
+
+<form action="api/citizens/add" method="post">
+  		<label for="id">Αριθμός ταυτότητας πολίτη:</label><br>
+		<input type="text" name="id"/><br>
+		<label for="name">Όνομα:</label><br>
+		<input type="text" name="name"/><br>
+		<label for="surname">Επίθετο:</label><br>
+		<input type="text" name="surname" /><br>
+		<label for="dob">Ημερ. γέννησης:</label><br>
+		<input type="text" name="dob"/><br>		
+		<label for="sex">Φύλο [άνδρας=1,γυναίκα=2]:</label><br>
+		<input type="text" name="sex"/><br>
+		<label for="vat">ΑΦΜ:</label><br>		
+		<input type="text" name="vat"/><br>		
+		<label for="address">Διεύθυνση κατοικίας:</label><br>
+		<input type="text" name="address"/><br><br>		
+		<input type="submit" value="Εισαγωγή" />
+</form>
+
+</body>
+</html>
